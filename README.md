@@ -32,7 +32,9 @@ Instalación:
 Funcionalidades:
 
 -Crear alumno: Rellena los campos de Nombre, sexo y rut, luego presiona en el botón "crear alumno" para agregar un nuevo registro a la base de datos
+
 -Editar alumno: Haz doble click sobre un registro en la tabla para cargar sus datos en el campo. Edita los campos y luego presiona en el botón "Editar alumno" para actualizar el registro
+
 -Eliminar alumno: Haz doble click sobre un registro en la tabla para seleccionarlo, luego presiona el botón "Eliminar alumno" para borrar el registro seleccionado.
 
 //Para verificar la efectividad de las creaciones, modificaciones y eliminaciones puedes ir verificando en Mongo DB paralelamente
