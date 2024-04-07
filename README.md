@@ -1,35 +1,46 @@
-Guia 1 CRUD PYTHON-MONGO DB
+# Guia 1 CRUD PYTHON-MONGO DB
 
-//Este es un proyecto basico en python en el cual se pueden realizar operaciones CRUD (Create,Read,Update y Delete) sobre una colección de datos en MongoDB
+Este es un proyecto basico en python en el cual se pueden realizar operaciones CRUD (Create,Read,Update y Delete) sobre una colección de datos en MongoDB
 
-Requisitos:
+## Requisitos:
+
 *Python 3.x
+
 *MongoDB
 
-Instalación:
+## Instalación:
 
 1. Clona este repositorio (git clone)  
 2. Navega hasta el directorio del proyecto
 3. Crea un entorno virtual:
-   python3 -m venv venv
+
+   `python3 -m venv venv`
+
 4. Activa el entorno virtual:
 
    En windows:
-        venv\Scripts\activate
+
+   `venv\Scripts\activate`
 
    En macOS/Linux:
-         source venv/bin/activate
+
+   `source venv/bin/activate`
+
+
 5. Instalar dependencias(pip):
+
    *pymongo
    *tkinter
    *bson
+
 6.  Asegurate de tener Mongo DB instalado y ejecutandose localmente, puedes modificar las configuraciones en el archivo "app.py" si es necesario
 
 7.  Ejecuta el programa:
-    python app.py
+
+    `python app.py`
 
 
-Funcionalidades:
+## Funcionalidades:
 
 -Crear alumno: Rellena los campos de Nombre, sexo y rut, luego presiona en el botón "crear alumno" para agregar un nuevo registro a la base de datos
 
